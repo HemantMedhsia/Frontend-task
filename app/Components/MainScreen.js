@@ -17,8 +17,10 @@ const MainScreen = () => {
       <Header />
       <div className="h-[100vh] text-white">
         <div className="h-[100vh] w-[5%] bg-[#F9FCFF] absolute top-0">
-          <div className="flex pt-5 px-5 text-[#2E5A75]">
-            <i className="fa-brands fa-slack fa-2x"></i>
+          <div className="flex pt-5 px-3 text-[#2E5A75]">
+            {/* <i className="fa-brands fa-slack fa-2x"></i> */}
+            <img className="h-12 w-12" src="https://i.pinimg.com/736x/58/ba/ce/58bace42e0e777c45691cecfc1f4167e.jpg"/>
+            <div class="absolute top-0 left-0 rounded-[50%] h-16 w-16 bg-[#F9FCFF] opacity-20"></div>
           </div>
 
           <div className="mt-6 hover:bg-[#2E5A75] rounded-l-full">
